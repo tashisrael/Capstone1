@@ -32,7 +32,7 @@ body {
 .bmw-logo {
   width: 100px;
   height: 50px;
-  padding: 12px 5px 5px 5px; 
+  padding: 12px 5px 5px 5px;
 }
 
 .logo-text {
@@ -53,6 +53,21 @@ body {
 
 .logo-icon {
   display: flex;
+}
+
+.my-logo a {
+  list-style: none;
+  color: blue;
+  font-weight: 900;
+  text-decoration: none;
+  font-size: 27px;
+}
+
+.my-logo {
+  border: 2px solid #2e86c1;
+  border-radius: 12px;
+  width: 5rem;
+  text-align: center;
 }
 
 .ini {
@@ -160,7 +175,7 @@ body {
   background-color: #f4f4f4;
 }
 
-.about-text2 h5{
+.about-text2 h5 {
   font-size: 1.3rem;
 }
 
@@ -208,21 +223,6 @@ body {
 
 .footer-text {
   margin-top: 15px;
-}
-
-.my-logo a{
-  list-style: none;
-  color: blue;
-  font-weight: 900;
-  text-decoration: none;
-  font-size: 27px;
-}
-
-.my-logo {
-  border: 2px solid #2e86c1;
-  border-radius: 12px;
-  width: 5rem;
-  text-align: center;
 }
 
 .mobile-menu {
@@ -355,7 +355,7 @@ body {
   .bmw-logo {
     width: 80px;
     height: 50px;
-    padding: 12px 5px 5px 5px; 
+    padding: 12px 5px 5px 5px;
   }
 
   .footer-paragraph {

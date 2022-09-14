@@ -12,11 +12,6 @@ body {
   font-family: "lato", sans-serif;
 }
 
-.date {
-  padding-bottom: 10%;
-  color: #333;
-}
-
 p {
   line-height: 1.1rem;
 }
@@ -68,7 +63,6 @@ p {
 }
 
 .venue {
-  margin-top: -20px;
   font-size: 1rem;
   color: #272a31;
   font-size: 20px;
@@ -87,6 +81,7 @@ p {
 }
 
 .first-section {
+  padding-bottom: 5rem;
   padding-top: 4rem;
   padding-left: 2rem;
 }
@@ -120,12 +115,12 @@ p {
 }
 
 .nav-links,
-  ul li a {
-    list-style: none;
-    color: #f4f4f4;
-    text-decoration: none;
-    font-size: 27px;
-  }
+ul li a {
+  list-style: none;
+  color: #f4f4f4;
+  text-decoration: none;
+  font-size: 27px;
+}
 
 .slide-in {
   display: flex;
@@ -317,7 +312,7 @@ hr {
   height: 40px;
 }
 
-.my-logo a{
+.my-logo a {
   list-style: none;
   color: blue;
   font-weight: 900;
@@ -356,7 +351,7 @@ footer {
     display: none;
   }
 
-  .header{
+  .header {
     display: block;
   }
 
@@ -380,7 +375,7 @@ footer {
   .bmw-logo img {
     width: 80px;
     height: 50px;
-    padding: 12px 5px 5px 5px; 
+    padding: 12px 5px 5px 5px;
   }
 
   .logo-icon {
@@ -452,7 +447,7 @@ footer {
     -webkit-text-fill-color: transparent;
     background-repeat: no-repeat;
     background-size: cover;
-    line-height: 4rem
+    line-height: 4rem;
   }
 
   .paragraph1 {
@@ -479,7 +474,6 @@ footer {
   .date {
     font-weight: 700;
     color: #282828;
-    margin-bottom: -5rem;
     font-size: 2rem;
   }
 
