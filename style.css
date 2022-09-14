@@ -68,6 +68,7 @@ p {
 }
 
 .venue {
+  margin-top: -20px;
   font-size: 1rem;
   color: #272a31;
   font-size: 20px;
@@ -93,19 +94,22 @@ p {
 .nav-menu {
   display: block;
   background-color: #3c3a39;
-  backdrop-filter: blur(4px);
-  display: none;
-  height: 400rem;
+  height: 800px;
   width: 100%;
   font-family: 'Inter', sans-serif;
   position: fixed;
   margin: 0;
   padding: 0;
+  left: -200%;
+}
+
+.hr-nav {
+  width: 10rem;
 }
 
 .nav-menu.active {
   left: 0;
-  transition: 0.5s;
+  transition: 0.5s ease-out;
 }
 
 .nav-links {
@@ -313,6 +317,21 @@ hr {
   height: 40px;
 }
 
+.my-logo a{
+  list-style: none;
+  color: blue;
+  font-weight: 900;
+  text-decoration: none;
+  font-size: 27px;
+}
+
+.my-logo {
+  border: 2px solid #2e86c1;
+  border-radius: 12px;
+  width: 5rem;
+  text-align: center;
+}
+
 footer {
   min-height: 5rem;
 }
@@ -364,10 +383,6 @@ footer {
     padding: 12px 5px 5px 5px; 
   }
 
-  .logo-text {
-    margin-top: 23px;
-  }
-
   .logo-icon {
     display: flex;
   }
@@ -376,6 +391,7 @@ footer {
     text-decoration: none;
     color: #282828;
     margin-right: 50px;
+    font-size: 1rem;
   }
 
   .lists > li > a:hover {
@@ -397,6 +413,8 @@ footer {
   .logo-text {
     margin-top: 19px;
     font-size: 15px;
+    border: 1px solid #2e86c1;
+    border-bottom-right-radius: 12px;
   }
 
   .front-section {
@@ -408,8 +426,6 @@ footer {
   .first-section {
     padding-top: 6rem;
     padding-left: 7rem;
-    padding-bottom: 7rem;
-    
   }
 
   .section-two {
@@ -419,7 +435,7 @@ footer {
   }
 
   .med-heading {
-    margin-top: 2px;
+    margin-top: -8px;
     color: #f55114;
     line-height: 2rem;
     font-size: 2rem;
@@ -428,6 +444,8 @@ footer {
   .main-heading {
     color: #ec5242;
     font-weight: 900;
+    margin-bottom: 20px;
+    margin-top: 2px;
     font-size: 4rem;
     background-image: url(images/backgrd.jpg);
     -webkit-background-clip: text;
@@ -447,21 +465,27 @@ footer {
     border: 2px solid white;
     width: 42rem;
     text-align: left;
-    margin-top: -20px;
+    margin-bottom: -20px;
     background-color: #f2f5f5;
     border-radius: 1px;
     display: inline-block;
   }
 
+  .ini {
+    border: 2px solid #ec5242;
+    border-radius: 4px;
+  }
+
   .date {
     font-weight: 700;
     color: #282828;
+    margin-bottom: -5rem;
+    font-size: 2rem;
   }
 
   .venue {
-    margin-top: -8rem;
-    font-size: 1rem;
-    padding-bottom: 3rem;
+    font-size: 1.2rem;
+    padding-bottom: 2rem;
   }
 
   .program {

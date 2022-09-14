@@ -36,11 +36,28 @@ body {
 }
 
 .logo-text {
-  margin-top: 23px;
+  margin-top: 19px;
+  font-size: 15px;
+  border: 1px solid #2e86c1;
+  border-bottom-right-radius: 12px;
+}
+
+.logo-text1 {
+  margin-top: 19px;
+  font-size: 15px;
+  height: 40px;
+  width: 130px;
+  border: 1px solid #2e86c1;
+  border-bottom-right-radius: 12px;
 }
 
 .logo-icon {
   display: flex;
+}
+
+.ini {
+  border: 2px solid #ec5242;
+  border-radius: 4px;
 }
 
 .lists a {
@@ -102,6 +119,7 @@ body {
   color: #f55114;
   font-weight: 700;
   text-align: center;
+  font-size: 2rem;
 }
 
 .about-heading p {
@@ -128,6 +146,10 @@ body {
   text-align: center;
 }
 
+.about-text h5 {
+  font-size: 1.3rem;
+}
+
 #bmw-logo {
   justify-content: center;
 }
@@ -136,6 +158,10 @@ body {
   text-align: center;
   padding: 5rem;
   background-color: #f4f4f4;
+}
+
+.about-text2 h5{
+  font-size: 1.3rem;
 }
 
 .card-container {
@@ -182,6 +208,21 @@ body {
 
 .footer-text {
   margin-top: 15px;
+}
+
+.my-logo a{
+  list-style: none;
+  color: blue;
+  font-weight: 900;
+  text-decoration: none;
+  font-size: 27px;
+}
+
+.my-logo {
+  border: 2px solid #2e86c1;
+  border-radius: 12px;
+  width: 5rem;
+  text-align: center;
 }
 
 .mobile-menu {

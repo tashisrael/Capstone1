@@ -2,6 +2,10 @@
 
 **This is a Capstone Project template for an Nft Global Conference**
 
+# WORK FLOW SCREEN SHOTS
+![screenshot](./images/homeshot.PNG)
+![screenshot](./images/mobilesnap.PNG)
+
 ## Built With
 
 - HTML
@@ -14,7 +18,7 @@
 
 ## Video Demo
 
-[Video Demo]().
+[Video Demo](https://www.loom.com/share/dce2e26166534889b5a91ef5fa25f8de).
 
 ## Getting Started
 
