@@ -1,6 +1,10 @@
 ## First Capstone Project
 
-**This is a Capstone Project template for an Nft Global Conference**
+**This is a Capstone Project template for an BMW CC Global Summit**
+
+# WORK FLOW SCREENSHOTS
+![screenshot](./images/homeshot.PNG)
+![screenshot](./images/mobilesnap.PNG)
 
 ## Built With
 
@@ -10,11 +14,11 @@
 
 ## Live Demo
 
-- [Live Demo Link]().
+- [Live Demo Link](https://tashisrael.github.io/Capstone1/).
 
 ## Video Demo
 
-[Video Demo]().
+- [Video Demo](https://www.loom.com/share/6f8540336ac64e2e9e4417bd028544ed).
 
 ## Getting Started
 
@@ -63,8 +67,7 @@ Give a ⭐️ if you like this project!
 ## Acknowledgments
 
 - Cindy Shinon Behance for her UI design template
-- nft.nyc for using their speaker images
 
 ## 📝 License
 
-This project is [MIT](./LICENSE) licensed.
+This project is [MIT](./MIT.md) licensed.
